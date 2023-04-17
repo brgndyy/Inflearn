@@ -12,10 +12,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-transform-arrow-functions": "^7.20.7",
+    "@babel/plugin-transform-block-scoping": "^7.21.0",
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.78.0",
     "webpack-cli": "^5.0.1"
   },
   "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
     "css-loader": "^6.7.3",
     "lodash": "^4.17.21",
     "style-loader": "^3.3.2"

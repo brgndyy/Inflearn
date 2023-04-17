@@ -1,3 +1,12 @@
+/*!
+ * 
+ *       Build Date : 2023. 4. 12. 오전 11:38:45
+ *       Commit Version : 4dcc6dc
+ *
+ *       Author : brgndy
+ *
+ *
+ */
 /*
  * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
  * This devtool is neither made for production nor for readable output files.
@@ -147,7 +156,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _tree_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tree.jpeg */ \"./src/tree.jpeg\");\n/* harmony import */ var _music_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./music.png */ \"./src/music.png\");\n\n\n\n\n\nfunction component() {\n  const element = document.createElement(\"div\");\n  const img = document.createElement(\"img\");\n\n  // 이 라인이 동작하려면 현재 스크립트를 통해 포함된 Lodash가 필요합니다.\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join([\"안녕하세요\", \"웹팩 공부중\"], \" \");\n\n  img.src = _music_png__WEBPACK_IMPORTED_MODULE_3__;\n\n  element.appendChild(img);\n\n  console.log(img.src);\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n\n//# sourceURL=webpack://webpackbabel/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _music_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./music.png */ \"./src/music.png\");\n\n\n\n\nfunction component() {\n  const element = document.createElement(\"div\");\n  const img = document.createElement(\"img\");\n\n  // 이 라인이 동작하려면 현재 스크립트를 통해 포함된 Lodash가 필요합니다.\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join([\"안녕하세요\", \"웹팩 공부중\"], \" \");\n\n  img.src = _music_png__WEBPACK_IMPORTED_MODULE_2__;\n\n  element.appendChild(img);\n\n  console.log(img.src);\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n\nconsole.log(\"development\");\n\n\n//# sourceURL=webpack://webpackbabel/./src/index.js?");
 
 /***/ }),
 
@@ -170,17 +179,6 @@ eval("module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABKkAAAMuC
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"images/f5d47c86a44f8a03f54b.jpeg\";\n\n//# sourceURL=webpack://webpackbabel/./src/bg.jpeg?");
-
-/***/ }),
-
-/***/ "./src/tree.jpeg":
-/*!***********************!*\
-  !*** ./src/tree.jpeg ***!
-  \***********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"images/b941f754966460ebf7b2.jpeg\";\n\n//# sourceURL=webpack://webpackbabel/./src/tree.jpeg?");
 
 /***/ })
 
